@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3677BDF618DFE63800258D0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677BDF518DFE63800258D0C /* Foundation.framework */; };
+		3677BDF818DFE63800258D0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677BDF718DFE63800258D0C /* CoreGraphics.framework */; };
+		3677BDFA18DFE63800258D0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677BDF918DFE63800258D0C /* UIKit.framework */; };
+		3677BE0018DFE63800258D0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3677BDFE18DFE63800258D0C /* InfoPlist.strings */; };
+		3677BE0218DFE63800258D0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3677BE0118DFE63800258D0C /* main.m */; };
+		3677BE0618DFE63900258D0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3677BE0518DFE63900258D0C /* AppDelegate.m */; };
+		3677BE0918DFE63900258D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3677BE0718DFE63900258D0C /* Main.storyboard */; };
+		3677BE0C18DFE63900258D0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3677BE0B18DFE63900258D0C /* ViewController.m */; };
+		3677BE0E18DFE63900258D0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3677BE0D18DFE63900258D0C /* Images.xcassets */; };
+		3677BE1518DFE63900258D0C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677BE1418DFE63900258D0C /* XCTest.framework */; };
+		3677BE1618DFE63900258D0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677BDF518DFE63800258D0C /* Foundation.framework */; };
+		3677BE1718DFE63900258D0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677BDF918DFE63800258D0C /* UIKit.framework */; };
+		3677BE1F18DFE63900258D0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3677BE1D18DFE63900258D0C /* InfoPlist.strings */; };
+		3677BE2118DFE63900258D0C /* GeoCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3677BE2018DFE63900258D0C /* GeoCodingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3677BE1818DFE63900258D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3677BDEA18DFE63800258D0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3677BDF118DFE63800258D0C;
+			remoteInfo = GeoCoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3677BDF218DFE63800258D0C /* GeoCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3677BDF518DFE63800258D0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3677BDF718DFE63800258D0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3677BDF918DFE63800258D0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3677BDFD18DFE63800258D0C /* GeoCoding-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoCoding-Info.plist"; sourceTree = "<group>"; };
+		3677BDFF18DFE63800258D0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3677BE0118DFE63800258D0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3677BE0318DFE63800258D0C /* GeoCoding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoCoding-Prefix.pch"; sourceTree = "<group>"; };
+		3677BE0418DFE63900258D0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3677BE0518DFE63900258D0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3677BE0818DFE63900258D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3677BE0A18DFE63900258D0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3677BE0B18DFE63900258D0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3677BE0D18DFE63900258D0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3677BE1318DFE63900258D0C /* GeoCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3677BE1418DFE63900258D0C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3677BE1C18DFE63900258D0C /* GeoCodingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoCodingTests-Info.plist"; sourceTree = "<group>"; };
+		3677BE1E18DFE63900258D0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3677BE2018DFE63900258D0C /* GeoCodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoCodingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3677BDEF18DFE63800258D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3677BDF818DFE63800258D0C /* CoreGraphics.framework in Frameworks */,
+				3677BDFA18DFE63800258D0C /* UIKit.framework in Frameworks */,
+				3677BDF618DFE63800258D0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3677BE1018DFE63900258D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3677BE1518DFE63900258D0C /* XCTest.framework in Frameworks */,
+				3677BE1718DFE63900258D0C /* UIKit.framework in Frameworks */,
+				3677BE1618DFE63900258D0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3677BDE918DFE63800258D0C = {
+			isa = PBXGroup;
+			children = (
+				3677BDFB18DFE63800258D0C /* GeoCoding */,
+				3677BE1A18DFE63900258D0C /* GeoCodingTests */,
+				3677BDF418DFE63800258D0C /* Frameworks */,
+				3677BDF318DFE63800258D0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3677BDF318DFE63800258D0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3677BDF218DFE63800258D0C /* GeoCoding.app */,
+				3677BE1318DFE63900258D0C /* GeoCodingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3677BDF418DFE63800258D0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3677BDF518DFE63800258D0C /* Foundation.framework */,
+				3677BDF718DFE63800258D0C /* CoreGraphics.framework */,
+				3677BDF918DFE63800258D0C /* UIKit.framework */,
+				3677BE1418DFE63900258D0C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3677BDFB18DFE63800258D0C /* GeoCoding */ = {
+			isa = PBXGroup;
+			children = (
+				3677BE0418DFE63900258D0C /* AppDelegate.h */,
+				3677BE0518DFE63900258D0C /* AppDelegate.m */,
+				3677BE0718DFE63900258D0C /* Main.storyboard */,
+				3677BE0A18DFE63900258D0C /* ViewController.h */,
+				3677BE0B18DFE63900258D0C /* ViewController.m */,
+				3677BE0D18DFE63900258D0C /* Images.xcassets */,
+				3677BDFC18DFE63800258D0C /* Supporting Files */,
+			);
+			path = GeoCoding;
+			sourceTree = "<group>";
+		};
+		3677BDFC18DFE63800258D0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3677BDFD18DFE63800258D0C /* GeoCoding-Info.plist */,
+				3677BDFE18DFE63800258D0C /* InfoPlist.strings */,
+				3677BE0118DFE63800258D0C /* main.m */,
+				3677BE0318DFE63800258D0C /* GeoCoding-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3677BE1A18DFE63900258D0C /* GeoCodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3677BE2018DFE63900258D0C /* GeoCodingTests.m */,
+				3677BE1B18DFE63900258D0C /* Supporting Files */,
+			);
+			path = GeoCodingTests;
+			sourceTree = "<group>";
+		};
+		3677BE1B18DFE63900258D0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3677BE1C18DFE63900258D0C /* GeoCodingTests-Info.plist */,
+				3677BE1D18DFE63900258D0C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3677BDF118DFE63800258D0C /* GeoCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3677BE2418DFE63900258D0C /* Build configuration list for PBXNativeTarget "GeoCoding" */;
+			buildPhases = (
+				3677BDEE18DFE63800258D0C /* Sources */,
+				3677BDEF18DFE63800258D0C /* Frameworks */,
+				3677BDF018DFE63800258D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoCoding;
+			productName = GeoCoding;
+			productReference = 3677BDF218DFE63800258D0C /* GeoCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3677BE1218DFE63900258D0C /* GeoCodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3677BE2718DFE63900258D0C /* Build configuration list for PBXNativeTarget "GeoCodingTests" */;
+			buildPhases = (
+				3677BE0F18DFE63900258D0C /* Sources */,
+				3677BE1018DFE63900258D0C /* Frameworks */,
+				3677BE1118DFE63900258D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3677BE1918DFE63900258D0C /* PBXTargetDependency */,
+			);
+			name = GeoCodingTests;
+			productName = GeoCodingTests;
+			productReference = 3677BE1318DFE63900258D0C /* GeoCodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3677BDEA18DFE63800258D0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = off;
+				TargetAttributes = {
+					3677BE1218DFE63900258D0C = {
+						TestTargetID = 3677BDF118DFE63800258D0C;
+					};
+				};
+			};
+			buildConfigurationList = 3677BDED18DFE63800258D0C /* Build configuration list for PBXProject "GeoCoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3677BDE918DFE63800258D0C;
+			productRefGroup = 3677BDF318DFE63800258D0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3677BDF118DFE63800258D0C /* GeoCoding */,
+				3677BE1218DFE63900258D0C /* GeoCodingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3677BDF018DFE63800258D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3677BE0E18DFE63900258D0C /* Images.xcassets in Resources */,
+				3677BE0018DFE63800258D0C /* InfoPlist.strings in Resources */,
+				3677BE0918DFE63900258D0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3677BE1118DFE63900258D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3677BE1F18DFE63900258D0C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3677BDEE18DFE63800258D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3677BE0C18DFE63900258D0C /* ViewController.m in Sources */,
+				3677BE0618DFE63900258D0C /* AppDelegate.m in Sources */,
+				3677BE0218DFE63800258D0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3677BE0F18DFE63900258D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3677BE2118DFE63900258D0C /* GeoCodingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3677BE1918DFE63900258D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3677BDF118DFE63800258D0C /* GeoCoding */;
+			targetProxy = 3677BE1818DFE63900258D0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3677BDFE18DFE63800258D0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3677BDFF18DFE63800258D0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3677BE0718DFE63900258D0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3677BE0818DFE63900258D0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3677BE1D18DFE63900258D0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3677BE1E18DFE63900258D0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3677BE2218DFE63900258D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3677BE2318DFE63900258D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3677BE2518DFE63900258D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoCoding/GeoCoding-Prefix.pch";
+				INFOPLIST_FILE = "GeoCoding/GeoCoding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3677BE2618DFE63900258D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoCoding/GeoCoding-Prefix.pch";
+				INFOPLIST_FILE = "GeoCoding/GeoCoding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3677BE2818DFE63900258D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoCoding.app/GeoCoding";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoCoding/GeoCoding-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GeoCodingTests/GeoCodingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3677BE2918DFE63900258D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoCoding.app/GeoCoding";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoCoding/GeoCoding-Prefix.pch";
+				INFOPLIST_FILE = "GeoCodingTests/GeoCodingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3677BDED18DFE63800258D0C /* Build configuration list for PBXProject "GeoCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3677BE2218DFE63900258D0C /* Debug */,
+				3677BE2318DFE63900258D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3677BE2418DFE63900258D0C /* Build configuration list for PBXNativeTarget "GeoCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3677BE2518DFE63900258D0C /* Debug */,
+				3677BE2618DFE63900258D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3677BE2718DFE63900258D0C /* Build configuration list for PBXNativeTarget "GeoCodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3677BE2818DFE63900258D0C /* Debug */,
+				3677BE2918DFE63900258D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3677BDEA18DFE63800258D0C /* Project object */;
+}
